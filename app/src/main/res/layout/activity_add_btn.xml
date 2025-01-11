@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".AddBtn"
+    android:background="@drawable/background2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvAddStudentHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Details"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="16dp"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/STId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Student ID"
+            android:inputType="number"
+            android:padding="12dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:background="@drawable/editbox"
+            android:layout_marginTop="80dp" />
+
+        <EditText
+            android:id="@+id/STname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:background="@drawable/editbox"
+            android:inputType="textPersonName"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:padding="12dp"
+            android:layout_marginTop="15dp" />
+
+        <EditText
+            android:id="@+id/STage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Age"
+            android:inputType="number"
+            android:background="@drawable/editbox"
+            android:textColor="@color/white"
+            android:padding="12dp"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="15dp" />
+
+        <EditText
+            android:id="@+id/stemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/editbox"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:padding="12dp"
+            android:layout_marginTop="15dp" />
+
+        <EditText
+            android:id="@+id/stcourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Course"
+            android:textColorHint="@color/white"
+            android:inputType="text"
+            android:background="@drawable/editbox"
+            android:textColor="@color/white"
+            android:padding="12dp"
+            android:layout_marginTop="15dp" />
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            android:textSize="18sp"
+            android:background="@drawable/btn2"
+            android:padding="12dp"
+            android:textColor="#F44336"
+            android:textStyle="bold"
+            android:layout_marginTop="34dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

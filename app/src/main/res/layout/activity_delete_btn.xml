@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    tools:context=".DeleteBtn">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:layout_marginTop="200dp">
+
+        <EditText
+            android:id="@+id/stdId1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Student ID"
+            android:inputType="number"
+            android:padding="12dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:background="@drawable/editbox"
+            android:layout_marginTop="80dp" />
+
+        <Button
+            android:id="@+id/btnDelete1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DELETE"
+            android:textSize="18sp"
+            android:background="@drawable/btn2"
+            android:textStyle="bold"
+            android:padding="12dp"
+            android:textColor="#F00707"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

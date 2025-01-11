@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#4D4A4A">
+
+    <TextView
+        android:id="@+id/studentId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textSize="18sp"
+        android:textColor="#EDECEC"
+        android:textStyle="bold"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/studentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="16sp"
+        android:textColor="#EDECEC"
+        android:textStyle="italic"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/studentAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:textStyle="italic"
+        android:textSize="16sp"
+        android:textColor="#EDECEC"/>
+
+    <TextView
+        android:id="@+id/studentEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:textColor="#EDECEC"/>
+
+    <TextView
+        android:id="@+id/studentCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:textColor="#EDECEC"/>
+
+
+
+</LinearLayout>
+
+
+

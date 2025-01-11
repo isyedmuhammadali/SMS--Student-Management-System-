@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    android:padding="18dp"
+    android:layout_centerHorizontal="true"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Management System"
+        android:layout_centerHorizontal="true"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvHeader"
+        android:text="Add Student"
+        android:background="@drawable/btn1"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="120dp" />
+
+    <Button
+        android:id="@+id/btnViewList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Student list"
+        android:layout_below="@id/btnAdd"
+        android:textSize="18sp"
+        android:background="@drawable/btn1"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnViewList"
+        android:text="Update Record"
+        android:textSize="18sp"
+        android:background="@drawable/btn1"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnDeleteStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnUpdate"
+        android:text="Delete Student"
+        android:textSize="18sp"
+        android:background="@drawable/btn1"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp" />
+
+
+
+
+</RelativeLayout>
+
+
+
